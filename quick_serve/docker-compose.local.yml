@@ -1,7 +1,6 @@
 volumes:
   quick_serve_local_postgres_data: {}
   quick_serve_local_postgres_data_backups: {}
-  
 
 services:
   django:
@@ -18,7 +17,7 @@ services:
       - ./.envs/.local/.django
       - ./.envs/.local/.postgres
     ports:
-      - '8000:8000'
+      - "8000:8000"
     command: /start
 
   postgres:
@@ -47,4 +46,4 @@ services:
       - /app/node_modules
     command: npm run dev
     ports:
-      - '3000:3000'
+      - "3000:3000"

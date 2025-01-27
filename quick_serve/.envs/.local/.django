@@ -2,3 +2,5 @@
 # ------------------------------------------------------------------------------
 USE_DOCKER=yes
 IPYTHONDIR=/app/.ipython
+DATABASE_URL=postgres://postgres:<1NfXQs6dprPEUIyAoNjhqLUwL7vyG0Ot3FZabc8rjd2x77MGXNWjevNVSixZ0mMw>@127.0.0.1:5432/<quick_serve>
+
